@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /*Pink*/
+    /* --main-color: #ED5F8A;
+    --secondary-color: #ed5f8aa3; */
+    /*Blue*/
+    --main-color: #6f90f4;
+    --secondary-color: #9db2f1;
+}
+  
+.menu-container {
+    color: #fff;
+    background-color: var(--main-color);
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+}
+
+.logo-container {
+    color: #fff;
+    background-color: var(--main-color);
+    padding: 0px 0;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+}
+
+.breadcrumbs-container {
+    color: #fff;
+    background-color: var(--secondary-color);
+    padding: 2px 0;
+    font-size: small;
+    display: flex;
+    justify-content: left;
+    width: 80%;
+    margin: auto;
+}
+
+.hline {
+    color: #fff;
+    background-color: var(--main-color);
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+}
+
+.subtitle-container {
+    color: var(--main-color);
+    background-color: #fff;
+    padding: 15px 20px 10px 0px;
+    display: flex;
+    justify-content: flex-start;
+    width: 80%;
+    margin: auto;
+}
+
+.content-container {
+    color: #fff;
+    background-color: var(--main-color);
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+ul.menu {
+    padding: 0px 16px;
+    list-style: none;
+    /* background-color: var(--secondary-color); */
+  }
+  
+  /* Display list items side by side */
+  ul.menu li {
+    display: inline;
+    font-size: small;
+  }
+  
+  ul.menu li+li:before {
+    padding: 8px;
+    color: black;
+    content: "\00a0";
+  }
+  
+  /* Add a color to all links inside the list */
+  ul.menu li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Add a color on mouse-over */
+  ul.menu li a:hover {
+    color: #01447e;
+  }
+
+.logo {
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 60pt;
+    font-style: italic;
+    letter-spacing: 3px;
+    color: var(--main-color);
+    text-shadow: -1px 1px 0px #fff,
+                  1px 1px 0px #fff,
+                  1px -1px 0px #fff,
+                  -1px -1px 0px #fff;
+
+}
+
+.logo a {
+    color: var(--main-color);
+    text-decoration: none;
+  }
+
+.logo a:hover {
+    color: #ffffff;
+    text-shadow: -2px -1px 0 #f60406,
+                  2px 1px 0 #1df7f7,
+                  0 0 0 #fff,
+                  0 0 0 #fff;
+}
+
+.smaller-text {
+    font-size: 30pt;
+}
+  
+/* .crumbs {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+} */
+
+ul.breadcrumb {
+    padding: 0px 16px;
+    list-style: none;
+    /* background-color: var(--secondary-color); */
+  }
+  
+  /* Display list items side by side */
+  ul.breadcrumb li {
+    display: inline;
+    font-size: small;
+  }
+  
+  /* Add a slash symbol (/) before/behind each list item */
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+  }
+  
+  /* Add a color to all links inside the list */
+  ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+  }
+  
+  /* Add a color on mouse-over */
+  ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+  }
+
+.subtitle {
+    color: var(--main-color);
+    padding-left: 10%;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 40pt;
+    font-family: cursive;
+    font-weight: 200;
+}
+
+.entries {
+    background-color: var(--secondary-color);
+    padding: 20px;
+    width: 99%;
+    display: flex;
+}
+
+.buttons {
+    background-color: var(--secondary-color);
+    border: 30px solid var(--main-color);
+    border-radius: 20%;
+    padding: 20px;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-content: flex-start;
+}
+
+.about-page {
+    padding: 10px 10px 10px 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
