@@ -12,6 +12,18 @@
     --main-color: #6f90f4;
     --secondary-color: #9db2f1;
 }
+
+@font-face {
+  font-family: 'URW';
+  src: url('Fonts/URWChanceryL-MediItal.eot');
+  src: url('Fonts/URWChanceryL-MediItal.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('Fonts/URWChanceryL-MediItal.woff2') format('woff2'), /* Super Modern Browsers */
+    url('Fonts/URWChanceryL-MediItal.woff') format('woff'), /* Pretty Modern Browsers */
+    url('Fonts/URWChanceryL-MediItal.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('Fonts/URWChanceryL-MediItal.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-weight: 600;
+  font-style: normal;
+}
   
 .menu-container {
     color: #fff;
@@ -182,8 +194,7 @@ ul.breadcrumb {
     display: flex;
     justify-content: flex-start;
     font-size: 40pt;
-    font-family: 'Trebuchet MS', cursive;
-    font-weight: 200;
+    font-family: 'URW', cursive;
 }
 
 .entries {
