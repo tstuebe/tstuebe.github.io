@@ -4,23 +4,6 @@
     box-sizing: border-box;
 }
 
-@media only screen and (max-width: 8in) {
-  body {
-    background-color: var(--main-color);
-  }
-  .menu-container,
-  .logo-container,
-  .breadcrumbs-container,
-  .subtitle-container,
-  .content-container
-   {
-    min-width: 100%;
-  }
-  .smaller-text {
-    display: none;
-  }
-}
-
 :root {
     /*Pink*/
     /* --main-color: #ED5F8A;
@@ -238,4 +221,21 @@ ul.breadcrumb {
     width: 100%;
     display: flex;
     justify-content: space-around;
+}
+
+@media only screen and (max-width: 750px) {
+  body {
+    background-color: var(--main-color);
+  }
+  .menu-container,
+  .logo-container,
+  .breadcrumbs-container,
+  .subtitle-container,
+  .content-container
+   {
+    min-width: 100%;
+  }
+  .smaller-text {
+    display: none;
+  }
 }
