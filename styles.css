@@ -239,3 +239,13 @@ ul.breadcrumb {
     display: none;
   }
 }
+
+
+@media only screen and (max-width: 500px) {
+  .buttons {
+    order: 30px solid var(--main-color);
+    border-radius: 20%;
+    width: 400px;
+    height: 400px;
+  }
+}
