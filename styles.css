@@ -249,3 +249,13 @@ ul.breadcrumb {
     height: 400px;
   }
 }
+
+.footer {
+    color: #fff;
+    background-color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+}
