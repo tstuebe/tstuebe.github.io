@@ -216,11 +216,23 @@ ul.breadcrumb {
     align-content: flex-start;
 }
 
+
+
 .about-page {
     padding: 10px 10px 10px 10px;
     width: 100%;
     display: flex;
     justify-content: space-around;
+}
+
+.footer {
+    color: #fff;
+    background-color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
 }
 
 @media only screen and (max-width: 750px) {
@@ -235,6 +247,7 @@ ul.breadcrumb {
    {
     min-width: 100%;
   }
+  .footer,
   .smaller-text {
     display: none;
   }
@@ -248,14 +261,4 @@ ul.breadcrumb {
     width: 400px;
     height: 400px;
   }
-}
-
-.footer {
-    color: #fff;
-    background-color: #fff;
-    padding: 10px 0;
-    display: flex;
-    justify-content: center;
-    width: 80%;
-    margin: auto;
 }
