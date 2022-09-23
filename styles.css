@@ -212,12 +212,13 @@ ul.breadcrumb {
     width: 250px;
     height: 250px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-content: flex-start;
 }
 
 img {
-    max-width: 60%;
+    height: 200px;
+    width: 200px;
     display: flex;
     align-content: center;
 }
