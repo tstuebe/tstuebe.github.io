@@ -260,5 +260,6 @@ ul.breadcrumb {
     border-radius: 20%;
     width: 400px;
     height: 400px;
+    font-size: 20pt;
   }
 }
