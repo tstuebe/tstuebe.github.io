@@ -216,7 +216,11 @@ ul.breadcrumb {
     align-content: flex-start;
 }
 
-
+img {
+    max-width: 60%;
+    display: flex;
+    align-content: center;
+}
 
 .about-page {
     padding: 10px 10px 10px 10px;
