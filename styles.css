@@ -78,6 +78,7 @@
 
 .content-container {
     color: #fff;
+    font-size: 20px;
     background-color: var(--main-color);
     padding: 10px 10px 10px 10px;
     display: flex;
