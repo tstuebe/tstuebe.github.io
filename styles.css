@@ -78,7 +78,7 @@
 
 .content-container {
     color: #fff;
-    font-size: 20px;
+    font-size: 18px;
     background-color: var(--main-color);
     padding: 10px 10px 10px 10px;
     display: flex;
@@ -200,7 +200,7 @@ ul.breadcrumb {
 
 .entries {
     background-color: var(--secondary-color);
-    padding: 20px;
+    padding: 18px;
     width: 99%;
     display: flex;
 }
