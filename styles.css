@@ -224,8 +224,9 @@ ul.breadcrumb {
 }
 
 img {
-    height: 90%;
-    width: 90%;
+    height: 170px;
+    width: 170px;
+    margin: 10px;
     display: flex;
     align-content: center;
 }
