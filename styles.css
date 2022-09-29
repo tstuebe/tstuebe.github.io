@@ -84,7 +84,8 @@
     display: flex;
     justify-content: center;
     width: 80%;
-    margin: auto;
+/*     margin: auto; */
+    margin: 30px 30px 30px 30px;
     flex-wrap: wrap;
 }
 
@@ -207,8 +208,10 @@ ul.breadcrumb {
 
 .buttons {
     background-color: var(--secondary-color);
-    border: 30px solid var(--main-color);
-    border-radius: 20%;
+/*     border: 30px solid var(--main-color);
+    border-radius: 20%; */
+    border: 1px solid var(--main-color);
+    border-radius: 5%;
     padding: 20px;
     width: 250px;
     height: 250px;
