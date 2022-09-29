@@ -210,7 +210,7 @@ ul.breadcrumb {
     margin: 30px;
     border: 1px solid var(--main-color);
     border-radius: 10%;
-    padding: 20px;
+/*     padding: 20px; */
     width: 190px;
     height: 190px;
     display: flex;
@@ -227,7 +227,7 @@ ul.breadcrumb {
 img {
     height: 170px;
     width: 170px;
-    margin: 0px 10px 10px 10px;
+    margin: 10px;
     display: flex;
     align-content: center;
 }
