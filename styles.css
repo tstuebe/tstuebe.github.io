@@ -272,14 +272,14 @@ img {
   .buttons {
     order: 30px solid var(--main-color);
     border-radius: 20%;
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     font-size: 20pt;
   }
   img {
-    height: 360px;
-    width: 360px;
-    margin: 20px;
+    height: 300px;
+    width: 300px;
+    margin: 25px;
   }
   .buttons a:hover {
     border: 1px solid #fff;
