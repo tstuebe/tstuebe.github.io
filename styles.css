@@ -276,4 +276,13 @@ img {
     height: 400px;
     font-size: 20pt;
   }
+  img {
+    height: 360px;
+    width: 360px;
+    margin: 20px;
+  }
+  .buttons a:hover {
+    border: 1px solid #fff;
+    border-radius: 20%;
+  }
 }
